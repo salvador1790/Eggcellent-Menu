@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma+2|Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -18,7 +19,7 @@
                 <img id="egglogo" src="./styles/fried-egg copy 2.png" alt="">
             </div>
             <h1 id="eggcellent">Eggcellent</h1>
-            <h5 id="tagline">Breakfast Sandwiches</h5>
+            <h5 id="tagline">All Day Breakfast Sandwiches</h5>
         </div>
 
     </div>
@@ -26,7 +27,7 @@
     <div id="orderCont">
         <div id="menu">
             <div id="sleeve1">
-                <div class="food" id="modalBtn">
+                <div class="food omg" id="Eggceptional" onclick="openModal()">
                     <div class="item">
                         <h3>Eggceptional Sammich</h3>
                         <p>(725 - 1020 cal)</p>
@@ -34,7 +35,7 @@
                     </div>
                     <div class="picCont1"></div>
                 </div>
-                <div class="food" id="modalBtn">
+                <div class="food"id="Eggciting" onclick="openModal2()">
                     <div class="item">
                         <h3>Eggciting Sausage Sammich</h3>
                         <p>(900 - 1040 cal)</p>
@@ -42,7 +43,7 @@
                     </div>
                     <div class="picCont2"></div>
                 </div>
-                <div class="food" id="modalBtn">
+                <div class="food" id="Eggsplosive" onclick="openModal3()">
                     <div class="item">
                         <h3>Eggsplosive Sammich</h3>
                         <p>(920 - 1650 cal)</p>
@@ -53,7 +54,7 @@
 
             </div>
             <div id="sleeve2">
-                <div class="food" id="modalBtn">
+                <div class="food" id="OrangeJuice" onclick="openModal4()">
                     <div class="item">
                         <h3>Orange Juice</h3>
                         <p>(111 cal)</p>
@@ -61,7 +62,7 @@
                     </div>
                     <div class="picCont4"></div>
                 </div>
-                <div class="food" id="modalBtn">
+                <div class="food" id="Potatoes" onclick="openModal5()">
                     <div class="item">
                         <h3>Seasoned Potatoes</h3>
                         <p>(1040 cal)</p>
@@ -69,7 +70,7 @@
                     </div>
                     <div class="picCont5"></div>
                 </div>
-                <div class="food" id="modalBtn">
+                <div class="food" id="Tea" onclick="openModal6()">
                     <div class="item">
                         <h3>Eggcellent Sweet Tea</h3>
                         <p>(91 cal)</p>
@@ -88,8 +89,13 @@
 
     <div id="modalBody" class="modal">
         <div class="modalContent">
-            <div class="modalClose">&#10005</div>
-            <p>I am a  modal</p>
+                <div class="modalClose">&#10005</div>
+            <div id="modal-header">
+                
+            </div>
+            <div id="modal-body">
+                
+            </div>
         </div>
     </div>
 
@@ -98,7 +104,7 @@
 
 
 
-<script src="./javascript/app.js"></script>
+    <script src="./javascript/app.js"></script>
 </body>
 
 </html>

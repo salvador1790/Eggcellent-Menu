@@ -88,6 +88,9 @@
     font-size: 13px;
     margin-left: 10px;
 }
+.food:hover{
+    cursor: pointer;
+}
 #sleeve1{
     margin-right: 20px;
 }
@@ -170,11 +173,13 @@
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    animation-name: modalFlowIn;
+    animation-duration: 0.5s;
 }
 
 .modalContent{
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: white;
     width: 35%;
     margin: 5%  auto;
     height: 400px;
@@ -191,4 +196,9 @@
 .modalClose:hover,.modalClose:focus{
     color: #000;
     cursor: pointer;
+}
+
+@keyframes  modalFlowIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
 }
